@@ -758,7 +758,7 @@ export default {
                 width: 100%;
                 margin: 0;
                 margin-top: 5px;
-                font-size: 14px;
+                font-size: 12px;
                 p {
                   padding: 2px 0;
                 }
