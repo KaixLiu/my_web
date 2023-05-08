@@ -168,6 +168,7 @@ export default {
     display: block;
   }
   .SwiperFour {
+    background-color: #f2f2f2;
     .FourBox {
       .title {
         line-height: 50px;

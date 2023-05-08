@@ -11,6 +11,7 @@ module.exports = defineConfig({
         vue: 'Vue',
         'vue-router': 'VueRouter',
         lodash: '_',
+        'element-ui': 'ELEMENT',
         'vue-quill-editor': 'VueQuillEditor'
       })
 
