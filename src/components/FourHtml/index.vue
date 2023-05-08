@@ -319,8 +319,6 @@ export default {
             font-size: 12px;
             line-height: 30px;
           }
-          .el-button {
-          }
         }
       }
     }
