@@ -160,6 +160,7 @@ export default {
 .swiper-container {
   width: 100%;
   height: 100%;
+  background-color: #f2f2f2;
   // 内部长图
   #swiper-container2 .swiper-slide {
     height: auto;
@@ -168,7 +169,6 @@ export default {
     display: block;
   }
   .SwiperFour {
-    background-color: #f2f2f2;
     .FourBox {
       .title {
         line-height: 50px;
