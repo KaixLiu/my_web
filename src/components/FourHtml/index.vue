@@ -168,7 +168,6 @@ export default {
     display: block;
   }
   .SwiperFour {
-    background-color: aqua;
     .FourBox {
       .title {
         line-height: 50px;
@@ -195,7 +194,6 @@ export default {
 @media screen and (max-width: 800px) {
   .swiper-container {
     .SwiperFour {
-      background-color: aqua;
       .FourBox {
         .title {
           line-height: 40px;
@@ -222,7 +220,6 @@ export default {
 @media screen and (max-width: 700px) {
   .swiper-container {
     .SwiperFour {
-      background-color: aqua;
       .FourBox {
         .title {
           line-height: 30px;
@@ -249,7 +246,6 @@ export default {
 @media screen and (max-width: 600px) {
   .swiper-container {
     .SwiperFour {
-      background-color: aqua;
       .FourBox {
         .title {
           line-height: 30px;
@@ -275,7 +271,6 @@ export default {
 @media screen and (max-width: 500px) {
   .swiper-container {
     .SwiperFour {
-      background-color: aqua;
       .FourBox {
         .title {
           line-height: 30px;
@@ -301,7 +296,6 @@ export default {
 @media screen and (max-width: 400px) {
   .swiper-container {
     .SwiperFour {
-      background-color: aqua;
       .FourBox {
         .title {
           line-height: 30px;
