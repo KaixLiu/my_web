@@ -31,11 +31,9 @@
                   <p>{{ o.text }}</p>
                 </div>
               </div>
-              <hr style="width: 80%; margin: 0 auto; marginBottom: 20px" />
+              <hr style="width: 80%; margin: 0 auto; marginbottom: 20px" />
               <div class="textBox">
-                <p>
-                  开发前端代码，实现产品的页面交互和数据逻辑展示
-                </p>
+                <p>开发前端代码，实现产品的页面交互和数据逻辑展示</p>
                 <p>与产品讨论确定，实现良好体验的交互效果</p>
                 <p>解决兼容性问题，优化前端性能，改善用户体验</p>
               </div>
@@ -57,10 +55,16 @@
                   <p>{{ J.text }}</p>
                 </div>
               </div>
-              <hr style="width: 80%; margin: 0 auto; marginBottom: 20px" />
+              <hr style="width: 80%; margin: 0 auto; marginbottom: 20px" />
               <div class="text">
-                <p>熟练使用各种 web 前端技术,包括 HTML/CSS/JS 等,能快速还原 PSD 源文件</p>
-                <p>熟练使用 vue 框架快速的构建项目,以及第三方库(ElementUI、bootstrap)</p>
+                <p>
+                  熟练使用各种 web 前端技术,包括 HTML/CSS/JS 等,能快速还原 PSD
+                  源文件
+                </p>
+                <p>
+                  熟练使用 vue
+                  框架快速的构建项目,以及第三方库(ElementUI、bootstrap)
+                </p>
                 <p>熟悉webpack自动化构建工具，熟练使用less预处理器</p>
                 <p>熟悉使用Git项目管理工具</p>
                 <p>了解Node、eslint具有良好的编码规范</p>
@@ -84,7 +88,7 @@
                     <p><strong>项目描述：</strong>{{ item.refer }}</p>
                     <p><strong>项目技术栈：</strong>{{ item.art }}</p>
                     <p><strong>项目职责：</strong>{{ item.job }}</p>
-                    <p><strong>项目业绩：</strong>{{item.yeji}}</p>
+                    <p><strong>项目业绩：</strong>{{ item.yeji }}</p>
                     <el-button
                       v-if="item.index"
                       type="primary"
@@ -123,7 +127,7 @@
                 </el-tooltip>
                 <!--  -->
               </div>
-              <hr style="width: 80%; margin: 0 auto; marginBottom: 20px" />
+              <hr style="width: 80%; margin: 0 auto; marginbottom: 20px" />
               <p>
                 个性乐观开朗，逻辑性强，善于合作<br />良好的沟通能力、团队合作能力、抗压能力<br />对IT行业充满热爱，期待有一个发展的机会
               </p>
@@ -758,7 +762,7 @@ export default {
                 width: 100%;
                 margin: 0;
                 margin-top: 5px;
-                font-size: 14px;
+                font-size: 12px;
                 p {
                   padding: 2px 0;
                 }
