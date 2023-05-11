@@ -150,7 +150,7 @@ export default {
   },
   methods: {
     goGame () {
-      window.location.href = 'https://kaixliu.github.io/game_web/dist'
+      window.location.href = 'http://yesterkg.top'
     }
   }
 }
