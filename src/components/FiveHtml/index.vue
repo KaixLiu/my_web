@@ -35,6 +35,7 @@
 
 <script>
 import Clipboard from 'clipboard'
+import throttle from '@//assets/throttle.js'
 export default {
   name: 'FiveHtml',
   data () {
@@ -77,8 +78,8 @@ export default {
     }
   },
   methods: {
-    // 点击复制相关信息
-    LXW (method) {
+    LXW: throttle(function (method) {
+      // console.log(method)
       if (method === 'weChat') {
         const clipboard = new Clipboard('.tag-weChat')
         clipboard.on('success', (e) => {
@@ -132,7 +133,7 @@ export default {
           clipboard.destroy()
         })
       }
-    }
+    }, 2000)
   }
 }
 </script>
@@ -195,7 +196,7 @@ export default {
           margin: 20px auto;
         }
       }
-      p{
+      p {
         font-size: 18px;
       }
     }
