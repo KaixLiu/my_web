@@ -3,7 +3,7 @@
     <div class="OneBox">
       <div class="title">
         <div class="avatar">
-          <img src="@/img/avatar.jpg" alt="" />
+          <img src="@//img/avatar.jpg" alt="" />
         </div>
         <h2>刘铠熙</h2>
         <hr style="width: 80%; margin: 0 auto; marginTop: 10px" />

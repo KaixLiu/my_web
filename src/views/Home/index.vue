@@ -24,15 +24,15 @@ import 'swiper/dist/css/swiper.css'
 import Swiper from 'swiper'
 // import Clipboard from 'clipboard'
 // 导入第一个页面
-import OneHtml from '@/components/OneHtml/index.vue'
+import OneHtml from '@//components/OneHtml/index.vue'
 // 导入第二个页面
-import TwoHtml from '@/components/TwoHtml/index.vue'
+import TwoHtml from '@//components/TwoHtml/index.vue'
 // 导入第三个页面
-import ThreeHtml from '@/components/ThreeHtml/index.vue'
+import ThreeHtml from '@//components/ThreeHtml/index.vue'
 // 导入第四个页面
-import FourHtml from '@/components/FourHtml/index.vue'
+import FourHtml from '@//components/FourHtml/index.vue'
 // 导入第五个页面
-import FiveHtml from '@/components/FiveHtml/index.vue'
+import FiveHtml from '@//components/FiveHtml/index.vue'
 export default {
   name: 'MyVita',
   data () {
