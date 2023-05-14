@@ -36,6 +36,7 @@
 <script>
 import Clipboard from 'clipboard'
 import throttle from '@//assets/throttle.js'
+import Vue from 'vue'
 export default {
   name: 'FiveHtml',
   data () {
@@ -77,58 +78,85 @@ export default {
       ]
     }
   },
+  created () {
+    // this.LXW()
+  },
   methods: {
     LXW: throttle(function (method) {
-      // console.log(method)
       if (method === 'weChat') {
         const clipboard = new Clipboard('.tag-weChat')
         clipboard.on('success', (e) => {
-          this.$message.success('微信号复制成功')
+          // this.$message.success('微信号复制成功')
+          Vue.prototype.$message({
+            message: '微信号复制成功',
+            type: 'success'
+          })
           // 释放内存
           clipboard.destroy()
         })
         clipboard.on('error', (e) => {
           // 不支持复制
-          this.$message.error('该浏览器不支持复制')
+          Vue.prototype.$message({
+            message: '该浏览器不支持复制',
+            type: 'error'
+          })
           // 释放内存
           clipboard.destroy()
         })
       } else if (method === 'QQ') {
         const clipboard = new Clipboard('.tag-QQ')
         clipboard.on('success', (e) => {
-          this.$message.success('QQ号复制成功')
+          Vue.prototype.$message({
+            message: 'QQ号复制成功',
+            type: 'success'
+          })
           // 释放内存
           clipboard.destroy()
         })
         clipboard.on('error', (e) => {
           // 不支持复制
-          this.$message.error('该浏览器不支持复制')
+          Vue.prototype.$message({
+            message: '该浏览器不支持复制',
+            type: 'error'
+          })
           // 释放内存
           clipboard.destroy()
         })
       } else if (method === 'Phone') {
         const clipboard = new Clipboard('.tag-Phone')
         clipboard.on('success', (e) => {
-          this.$message.success('手机号复制成功')
+          Vue.prototype.$message({
+            message: '手机号复制成功',
+            type: 'success'
+          })
           // 释放内存
           clipboard.destroy()
         })
         clipboard.on('error', (e) => {
           // 不支持复制
-          this.$message.error('该浏览器不支持复制')
+          Vue.prototype.$message({
+            message: '该浏览器不支持复制',
+            type: 'error'
+          })
           // 释放内存
           clipboard.destroy()
         })
       } else if (method === 'email') {
         const clipboard = new Clipboard('.tag-email')
         clipboard.on('success', (e) => {
-          this.$message.success('邮箱号复制成功')
+          Vue.prototype.$message({
+            message: '邮箱号复制成功',
+            type: 'success'
+          })
           // 释放内存
           clipboard.destroy()
         })
         clipboard.on('error', (e) => {
           // 不支持复制
-          this.$message.error('该浏览器不支持复制')
+          Vue.prototype.$message({
+            message: '该浏览器不支持复制',
+            type: 'error'
+          })
           // 释放内存
           clipboard.destroy()
         })
