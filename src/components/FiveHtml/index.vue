@@ -89,7 +89,8 @@ export default {
           // this.$message.success('微信号复制成功')
           Vue.prototype.$message({
             message: '微信号复制成功',
-            type: 'success'
+            type: 'success',
+            duration: '800'
           })
           // 释放内存
           clipboard.destroy()
@@ -108,7 +109,8 @@ export default {
         clipboard.on('success', (e) => {
           Vue.prototype.$message({
             message: 'QQ号复制成功',
-            type: 'success'
+            type: 'success',
+            duration: '800'
           })
           // 释放内存
           clipboard.destroy()
@@ -127,7 +129,8 @@ export default {
         clipboard.on('success', (e) => {
           Vue.prototype.$message({
             message: '手机号复制成功',
-            type: 'success'
+            type: 'success',
+            duration: '800'
           })
           // 释放内存
           clipboard.destroy()
@@ -146,7 +149,8 @@ export default {
         clipboard.on('success', (e) => {
           Vue.prototype.$message({
             message: '邮箱号复制成功',
-            type: 'success'
+            type: 'success',
+            duration: '800'
           })
           // 释放内存
           clipboard.destroy()
@@ -161,7 +165,7 @@ export default {
           clipboard.destroy()
         })
       }
-    }, 2000)
+    }, 800)
   }
 }
 </script>
